@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.1.3/",
+    "@mui/material": "https://esm.sh/@mui/material@5.11.8?alias=react:preact/compat,react-dom:preact/compat,@types/react:preact/compat&deps=preact@10.11.0",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/",
+    "@emotion/react": "https://esm.sh/v106/*@emotion/react@11.10.5",
+    "@emotion/react/": "https://esm.sh/v106/*@emotion/react@11.10.5/",
+    "@emotion/styled": "https://esm.sh/v106/*@emotion/styled@11.10.5",
+    "@emotion/styled/": "https://esm.sh/v106/*@emotion/styled@11.10.5/"
+  },
+  "scopes": {
+    "https://esm.sh/v106/": {
+      "@babel/runtime": "https://esm.sh/v106/@babel/runtime@7.20.13",
+      "@emotion/babel-plugin": "https://esm.sh/v106/@emotion/babel-plugin@11.10.5",
+      "@emotion/cache": "https://esm.sh/v106/@emotion/cache@11.10.5",
+      "@emotion/is-prop-valid": "https://esm.sh/v106/@emotion/is-prop-valid@1.2.0",
+      "@emotion/serialize": "https://esm.sh/v106/@emotion/serialize@1.1.1",
+      "@emotion/use-insertion-effect-with-fallbacks": "https://esm.sh/v106/@emotion/use-insertion-effect-with-fallbacks@1.0.0",
+      "@emotion/utils": "https://esm.sh/v106/@emotion/utils@1.2.0",
+      "@emotion/weak-memoize": "https://esm.sh/v106/@emotion/weak-memoize@0.3.0",
+      "hoist-non-react-statics": "https://esm.sh/v106/hoist-non-react-statics@3.3.2"
+    }
+  }
+}
